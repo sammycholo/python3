@@ -1,0 +1,18 @@
+'''
+10 Python Code Challenges for Beginners : https://www.codecademy.com/resources/blog/python-code-challenges-for-beginners/
+Solution By : Samuel Emmanuel
+Problem 10 : Repeat the characters
+
+'''
+def repeat_char(mystr):
+    double_str  = ""
+    for e in mystr:
+        double_str+= e*2
+    return double_str
+    
+new = repeat_char("Now")
+print(new)
+new1 = repeat_char("123a!")
+print(new1)
+new3 = repeat_char("abcd")
+print(new3)
